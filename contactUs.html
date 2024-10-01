@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANAMP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <nav class="head-content">
+      <div class="appName">
+        <h1 title="Andril Nanmaran Aadhavan Mozhiyazh Paninilavan">ANAMP</h1>
+      </div>
+      <div class="navlinks">
+        <p class="navbarlink"><a href="index.html">Home</a></p>
+        <p class="navbarlink"><a href="collectionspage.html">Collections</a></p>
+        <p class="navbarlink"><a href="contactUs.html">Contact Us</a></p>
+      </div>
+      <div class="navbar-links" onclick="display()">_ _ _</div>
+    </nav>
+    <div class="side-navbar">
+      <p class="cross-symbol" onclick="closeNavBar()">X</p>
+      <div class="side-navlinks">
+        <p class="sidenavlink"><a href="index.html">Home</a></p>
+        <p class="sidenavlink">
+          <a href="collectionspage.html">Collections</a>
+        </p>
+        <p class="sidenavlink"><a href="contactUs.html">Contact Us</a></p>
+      </div>
+    </div>
+    <div class="contact-page" id="contact-page">
+        <div class="contactDetails" id="contactDetails">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" class="name1"><br>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" class="email1"><br>
+              <label for="message">Message:</label><br>
+              <textarea id="message"></textarea><br>
+              <button id="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2 class="headingText">ANAMP</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            reprehenderit placeat et eaque asperiores laboriosam quam harum
+            dolore rem natus!
+          </p>
+          <div class="footer-icon-container">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+      <p>@2024ANAMP.com</p>
+    </div>
+    <script src="contactus.js"></script>
+  </body>
+</html>

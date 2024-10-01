@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANAMP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="head-content">
+      <div class="appName">
+        <h1 title="Andril Nanmaran Aadhavan Mozhiyazh Paninilavan">ANAMP</h1>
+      </div>
+      <div class="navlinks">
+        <p class="navbarlink"><a href="index.html">Home</a></p>
+        <p class="navbarlink"><a href="collectionspage.html">Collections</a></p>
+        <p class="navbarlink"><a href="contactUs.html">Contact Us</a></p>
+      </div>
+      <div class="navbar-links" onclick="displayContent()">_ _ _</div>
+    </nav>
+    <div class="side-navbar">
+      <p class="cross-symbol" onclick="closeNavBarLink()">X</p>
+      <div class="side-navlinks">
+        <p class="sidenavlink"><a href="index.html">Home</a></p>
+        <p class="sidenavlink"><a href="collectionspage.html">Collections</a></p>
+        <p class="sidenavlink"><a href="contactUs.html">Contact Us</a></p>
+      </div>
+    </div>
+    <div class="product-section">
+      <form class="product-search">
+        <input type="text" id="search" placeholder="Search" />
+      </form>
+      <div class="products" id="products">
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion9.png"
+          />
+          <p>White Bag</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion10.png"
+          />
+          <p>Crop top and phant</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion11.png"
+          />
+          <p>T-shirt and phant</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion12.png"
+          />
+          <p>White T-shirt</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion13.png"
+          />
+          <p>Gray Sweatshirt</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion14.png"
+          />
+          <p>Cooling glass combo</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion15.png"
+          />
+          <p>Coat Suite</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion16.png"
+          />
+          <p>Stylish Women Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion17.png"
+          />
+          <p>Women lehenga</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion18.png"
+          />
+          <p>Night phants</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion19.png"
+          />
+          <p>Women Plazzo</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion20.png"
+          />
+          <p>Beautiful Women White Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion21.png"
+          />
+          <p>Short Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion22.png"
+          />
+          <p>Black T-shirt</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion23.png"
+          />
+          <p>Jean Top</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion24.png"
+          />
+          <p>Butterfly Short Top</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion25.png"
+          />
+          <p>Black T-shirt</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion26.png"
+          />
+          <p>Redd Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion27.png"
+          />
+          <p>Yellow Top</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion28.png"
+          />
+          <p>Wedding Dress For Women</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion29.png"
+          />
+          <p>Pink Top</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion30.png"
+          />
+          <p>White Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion31.png"
+          />
+          <p>Yellow Saree</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion32.png"
+          />
+          <p>Pink Dress Women</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion42.png"
+          />
+          <p>Classy Bedsheet</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion33.png"
+          />
+          <p>Branded Headset</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion41.png"
+          />
+          <p>Multi Color Bedsheet</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion34.png"
+          />
+          <p>Sony Headset</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion35.png"
+          />
+          <p>Yellow Headset</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion36.png"
+          />
+          <p>Headset combo</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion37.png"
+          />
+          <p>Purple Bluetooth</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion38.png"
+          />
+          <p>Speakers</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion39.png"
+          />
+          <p>Dream Catcher</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion40.png"
+          />
+          <p>Dream Catcher</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion41.png"
+          />
+          <p>Bedsheet</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion43.png"
+          />
+          <p>Gray Bedsheet</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion9.png"
+          />
+          <p>White Bag</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion44.png"
+          />
+          <p>Red Nike Shoe</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion11.png"
+          />
+          <p>T-shirt and phant</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion50.png"
+          />
+          <p>White Shoe pair</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion13.png"
+          />
+          <p>Gray Sweatshirt</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion45.png"
+          />
+          <p>Girl baby dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion15.png"
+          />
+          <p>Coat Suite</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion46.png"
+          />
+          <p>Green shoe</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion17.png"
+          />
+          <p>Women lehenga</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion47.png"
+          />
+          <p>Black heels</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion19.png"
+          />
+          <p>Women Plazzo</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion49.png"
+          />
+          <p>Beautiful Women Black heel</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion21.png"
+          />
+          <p>Short Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion10.png"
+          />
+          <p>Yellow Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion23.png"
+          />
+          <p>Jean Top</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion3.png"
+          />
+          <p>Red Neck top</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion11.png"
+          />
+          <p>T-shirt and phant</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion26.png"
+          />
+          <p>Red Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion27.png"
+          />
+          <p>Yellow Top</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion33.png"
+          />
+          <p>Braded Headset</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion29.png"
+          />
+          <p>Pink Top</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion44.png"
+          />
+          <p>Red Shoe</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion15.png"
+          />
+          <p>Yellow Dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="C:\Users\VISHNU\Desktop\Sharmila\Projects\HTML Projects\e-Commerce app\images\fashion50.png"
+          />
+          <p>White shoe</p>
+        </div>
+      </div>
+    </div>
+    <div class="paginatin-container" id="paginatin-container">
+      <button class="pagination-button" id="prev-button">Previous</button>
+      <div id="pagination-number"></div>
+      <button class="pagination-button" id="next-button">Next</button>
+    </div>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2 class="headingText">ANAMP</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            reprehenderit placeat et eaque asperiores laboriosam quam harum
+            dolore rem natus!
+          </p>
+          <div class="footer-icon-container">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+      <p>@2024ANAMP.com</p>
+    </div>
+    <script src="paginations.js"></script>
+  </body>
+</html>
